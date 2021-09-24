@@ -1,9 +1,11 @@
 # ikubINFOProject
 
-This is a demo project to instrate few thing as mentioned below:
+This is a demo project to illustrate few thing as mentioned below:
+
 A) Functional requirements:
     1.Create a REST API which provides CREATE / READ / UPDATE / DELETE (CRUD) methods for 2 connected entities/tables. Example (User-> Roles or Department-> Employees). *
     2.API should be accessible only to authorized clients/users. *
+    
 B) Technical requirements:
     1.Set up an application with .Net Core/ Entity Framework.
     2.Data can be stored in SQL or NoSQL databases.
