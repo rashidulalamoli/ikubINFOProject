@@ -1,0 +1,1360 @@
+{
+	"info": {
+		"_postman_id": "65981343-edb1-4fb8-b848-d5d526dd8e30",
+		"name": "ikubINFO.Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Role",
+			"item": [
+				{
+					"name": "Role",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNTA3ODQ3LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjpbIioiLCIqIl19.VnkYaWWp3DgnDRsAVgjxVvZDNw6M1lcne8dNGF5RgkU",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:22056/api/Role",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "22056",
+							"path": [
+								"api",
+								"Role"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Role",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:22056/api/Role",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "22056",
+									"path": [
+										"api",
+										"Role"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Sep 2021 00:30:37 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"roleGuid\": \"7b68d63b-2da4-4622-abd3-5fc9a94e64fe\",\n        \"title\": \"User\",\n        \"description\": \"\"\n    },\n    {\n        \"id\": 2,\n        \"roleGuid\": \"00f3a44b-570f-4bb3-bbe6-45a4aeca977d\",\n        \"title\": \"Admin\",\n        \"description\": \"\"\n    },\n    {\n        \"id\": 3,\n        \"roleGuid\": \"36ca7f43-41ae-4af3-a30b-a943dbde148b\",\n        \"title\": \"Super Admin\",\n        \"description\": \"\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "RoleById",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:22056/api/Role/00f3a44b-570f-4bb3-bbe6-45a4aeca977d",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "22056",
+							"path": [
+								"api",
+								"Role",
+								"00f3a44b-570f-4bb3-bbe6-45a4aeca977d"
+							],
+							"query": [
+								{
+									"key": "Authorization",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "RoleById",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:22056/api/Role/00f3a44b-570f-4bb3-bbe6-45a4aeca977d",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "22056",
+									"path": [
+										"api",
+										"Role",
+										"00f3a44b-570f-4bb3-bbe6-45a4aeca977d"
+									],
+									"query": [
+										{
+											"key": "Authorization",
+											"value": null,
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Sep 2021 00:42:20 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 2,\n    \"roleGuid\": \"00f3a44b-570f-4bb3-bbe6-45a4aeca977d\",\n    \"title\": \"Admin\",\n    \"description\": \"\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Add Role",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"title\": \"Enployee\",\r\n  \"description\": \"abc\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:22056/api/Role",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "22056",
+							"path": [
+								"api",
+								"Role"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Add Role",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"title\": \"Enployee\",\r\n  \"description\": \"abc\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:22056/api/Role",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "22056",
+									"path": [
+										"api",
+										"Role"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null,
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Sep 2021 00:18:04 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Role created successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Edit Role",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"Employee\",\r\n    \"description\": \"def\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:22056/api/Role/6769e0ed-f843-4119-86e3-ea8cfb7fd728",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "22056",
+							"path": [
+								"api",
+								"Role",
+								"6769e0ed-f843-4119-86e3-ea8cfb7fd728"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Edit Role",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\":\"Employee\",\r\n    \"description\": \"def\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:22056/api/Role/6769e0ed-f843-4119-86e3-ea8cfb7fd728",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "22056",
+									"path": [
+										"api",
+										"Role",
+										"6769e0ed-f843-4119-86e3-ea8cfb7fd728"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Sep 2021 00:22:55 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Role updated successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "DeleteRole",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:22056/api/Role/36ca7f43-41ae-4af3-a30b-a943dbde148b?userDelete=true",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "22056",
+							"path": [
+								"api",
+								"Role",
+								"36ca7f43-41ae-4af3-a30b-a943dbde148b"
+							],
+							"query": [
+								{
+									"key": "userDelete",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "DeleteRole",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:22056/api/Role/36ca7f43-41ae-4af3-a30b-a943dbde148b?userDelete=true",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "22056",
+									"path": [
+										"api",
+										"Role",
+										"36ca7f43-41ae-4af3-a30b-a943dbde148b"
+									],
+									"query": [
+										{
+											"key": "userDelete",
+											"value": "true"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Sep 2021 00:58:01 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Role deleted successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "RolesWithUser",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:22056/api/Role/roles-with-user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "22056",
+							"path": [
+								"api",
+								"Role",
+								"roles-with-user"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "RolesWithUser",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:22056/api/Role/roles-with-user",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "22056",
+									"path": [
+										"api",
+										"Role",
+										"roles-with-user"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Sep 2021 00:58:12 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"roleGuid\": \"7b68d63b-2da4-4622-abd3-5fc9a94e64fe\",\n        \"title\": \"User\",\n        \"description\": \"\",\n        \"users\": [\n            {\n                \"userGuid\": \"c51da046-65ee-4f06-a7ba-dcc3f7c9c6db\",\n                \"firstName\": \"Rashidul\",\n                \"lastName\": \"Alam\",\n                \"initials\": \"RA\",\n                \"fullName\": \"Rashidul Alam\",\n                \"email\": \"ra@yopmail.com\",\n                \"userName\": \"oli\",\n                \"phone\": \"01717637167\",\n                \"image\": \"string\",\n                \"roleId\": 1\n            }\n        ]\n    },\n    {\n        \"id\": 2,\n        \"roleGuid\": \"00f3a44b-570f-4bb3-bbe6-45a4aeca977d\",\n        \"title\": \"Admin\",\n        \"description\": \"\",\n        \"users\": []\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "RoleWithUser",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:22056/api/Role/role-with-user/7b68d63b-2da4-4622-abd3-5fc9a94e64fe",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "22056",
+							"path": [
+								"api",
+								"Role",
+								"role-with-user",
+								"7b68d63b-2da4-4622-abd3-5fc9a94e64fe"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "RoleWithUser",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:22056/api/Role/role-with-user/7b68d63b-2da4-4622-abd3-5fc9a94e64fe",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "22056",
+									"path": [
+										"api",
+										"Role",
+										"role-with-user",
+										"7b68d63b-2da4-4622-abd3-5fc9a94e64fe"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Sep 2021 00:41:56 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"roleGuid\": \"7b68d63b-2da4-4622-abd3-5fc9a94e64fe\",\n    \"title\": \"User\",\n    \"description\": \"\",\n    \"users\": [\n        {\n            \"userGuid\": \"c51da046-65ee-4f06-a7ba-dcc3f7c9c6db\",\n            \"firstName\": \"Rashidul\",\n            \"lastName\": \"Alam\",\n            \"initials\": \"RA\",\n            \"fullName\": \"Rashidul Alam\",\n            \"email\": \"ra@yopmail.com\",\n            \"userName\": \"oli\",\n            \"phone\": \"01717637167\",\n            \"image\": \"string\",\n            \"roleId\": 1\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Add User",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"Teresa\",\r\n  \"lastName\": \"Morre\",\r\n  \"initials\": \"TM\",\r\n  \"fullName\": \"Teresa Morre\",\r\n  \"email\": \"tm@yopmail.com\",\r\n  \"userName\": \"teresa\",\r\n  \"phone\": \"898797\",\r\n  \"password\": \"12345\",\r\n  \"image\": \"string\",\r\n  \"roleId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:22056/api/User",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "22056",
+							"path": [
+								"api",
+								"User"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Add User",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"firstName\": \"Teresa\",\r\n  \"lastName\": \"Morre\",\r\n  \"initials\": \"TM\",\r\n  \"fullName\": \"Teresa Morre\",\r\n  \"email\": \"tm@yopmail.com\",\r\n  \"userName\": \"teresa\",\r\n  \"phone\": \"898797\",\r\n  \"password\": \"12345\",\r\n  \"image\": \"string\",\r\n  \"roleId\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:22056/api/User",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "22056",
+									"path": [
+										"api",
+										"User"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Sep 2021 00:59:58 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"statusCode\": 200,\n    \"message\": \"User created successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "User",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5000/api/User",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"User"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "User",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:22056/api/User",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "22056",
+									"path": [
+										"api",
+										"User"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Sep 2021 01:00:35 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"userGuid\": \"c51da046-65ee-4f06-a7ba-dcc3f7c9c6db\",\n        \"firstName\": \"Rashidul\",\n        \"lastName\": \"Alam\",\n        \"initials\": \"RA\",\n        \"fullName\": \"Rashidul Alam\",\n        \"email\": \"ra@yopmail.com\",\n        \"userName\": \"oli\",\n        \"phone\": \"01717637167\",\n        \"image\": \"string\",\n        \"roleId\": 1\n    },\n    {\n        \"userGuid\": \"dc3a39e7-48de-48e7-9fae-d3a6a55a7301\",\n        \"firstName\": \"Teresa\",\n        \"lastName\": \"Morre\",\n        \"initials\": \"TM\",\n        \"fullName\": \"Teresa Morre\",\n        \"email\": \"tm@yopmail.com\",\n        \"userName\": \"teresa\",\n        \"phone\": \"898797\",\n        \"image\": \"string\",\n        \"roleId\": 1\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "UserById",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:22056/api/User/dc3a39e7-48de-48e7-9fae-d3a6a55a7301",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "22056",
+							"path": [
+								"api",
+								"User",
+								"dc3a39e7-48de-48e7-9fae-d3a6a55a7301"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "UserById",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:22056/api/User/dc3a39e7-48de-48e7-9fae-d3a6a55a7301",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "22056",
+									"path": [
+										"api",
+										"User",
+										"dc3a39e7-48de-48e7-9fae-d3a6a55a7301"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Sep 2021 01:02:52 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"userGuid\": \"dc3a39e7-48de-48e7-9fae-d3a6a55a7301\",\n    \"firstName\": \"Teresa\",\n    \"lastName\": \"Morre\",\n    \"initials\": \"TM\",\n    \"fullName\": \"Teresa Morre\",\n    \"email\": \"tm@yopmail.com\",\n    \"userName\": \"teresa\",\n    \"phone\": \"898797\",\n    \"image\": \"string\",\n    \"roleId\": 1\n}"
+						}
+					]
+				},
+				{
+					"name": "Edit User",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\": \"Teresa\",\r\n    \"lastName\": \"Morre\",\r\n    \"initials\": \"TM\",\r\n    \"fullName\": \"Teresa Morre\",\r\n    \"email\": \"tm@yopmail.com\",\r\n    \"userName\": \"teresa\",\r\n    \"phone\": \"898797567567\",\r\n    \"password\": \"12345\",\r\n    \"image\": \"string\",\r\n    \"roleId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:22056/api/User/dc3a39e7-48de-48e7-9fae-d3a6a55a7301",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "22056",
+							"path": [
+								"api",
+								"User",
+								"dc3a39e7-48de-48e7-9fae-d3a6a55a7301"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Edit User",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"firstName\": \"Teresa\",\r\n    \"lastName\": \"Morre\",\r\n    \"initials\": \"TM\",\r\n    \"fullName\": \"Teresa Morre\",\r\n    \"email\": \"tm@yopmail.com\",\r\n    \"userName\": \"teresa\",\r\n    \"phone\": \"898797567567\",\r\n    \"password\": \"12345\",\r\n    \"image\": \"string\",\r\n    \"roleId\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:22056/api/User/dc3a39e7-48de-48e7-9fae-d3a6a55a7301",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "22056",
+									"path": [
+										"api",
+										"User",
+										"dc3a39e7-48de-48e7-9fae-d3a6a55a7301"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Sep 2021 01:07:45 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"statusCode\": 200,\n    \"message\": \"User updated successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:22056/api/User/dc3a39e7-48de-48e7-9fae-d3a6a55a7301",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "22056",
+							"path": [
+								"api",
+								"User",
+								"dc3a39e7-48de-48e7-9fae-d3a6a55a7301"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Delete",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDcwNDc1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.roBV96w_-i-T6bNlyATuzHg3WZ8gOLf5rnZP5apjAso",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:22056/api/User/dc3a39e7-48de-48e7-9fae-d3a6a55a7301",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "22056",
+									"path": [
+										"api",
+										"User",
+										"dc3a39e7-48de-48e7-9fae-d3a6a55a7301"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Sep 2021 01:09:09 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"statusCode\": 200,\n    \"message\": \"User deleted successfully\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Authorization",
+			"item": [
+				{
+					"name": "Token",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"grant_type\": \"refresh_token\",\r\n  \"email\": \"ra@yopmail.com\",\r\n  \"password\": \"12345\",\r\n  \"refreshtoken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDc0ODA1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.OtvHfaM24yvpTgN7S1aUMmiTxHDaxTsWKPkNUbqlQ_8\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:22056/token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "22056",
+							"path": [
+								"token"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Token",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"grant_type\": \"password\",\r\n  \"email\": \"ra@yopmail.com\",\r\n  \"password\": \"12345\",\r\n  \"refreshtoken\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:22056/token",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "22056",
+									"path": [
+										"token"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "RefreshToken",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"grant_type\": \"refresh_token\",\r\n  \"email\": \"ra@yopmail.com\",\r\n  \"password\": \"12345\",\r\n  \"refreshtoken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDc0ODA1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.OtvHfaM24yvpTgN7S1aUMmiTxHDaxTsWKPkNUbqlQ_8\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:22056/token",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "22056",
+									"path": [
+										"token"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 Sep 2021 01:13:26 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "331"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyYUB5b3BtYWlsLmNvbSIsInVuaXF1ZV9uYW1lIjoib2xpIiwiZXhwIjoxNjMyNDc0ODA1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjIyMDU2IiwiYXVkIjoiKiJ9.OtvHfaM24yvpTgN7S1aUMmiTxHDaxTsWKPkNUbqlQ_8\",\n    \"expiration\": \"2021-09-24T09:13:25+00:00\",\n    \"userEmail\": null,\n    \"statusCode\": 200,\n    \"message\": \"Success\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "HealthCheck",
+			"item": [
+				{
+					"name": "Health Check",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:22056/health/ready",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "22056",
+							"path": [
+								"health",
+								"ready"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Health check",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:22056/health/ready",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "22056",
+									"path": [
+										"health",
+										"ready"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": [],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Live health",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:22056/health/live",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "22056",
+							"path": [
+								"health",
+								"live"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Live health",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:22056/health/live",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "22056",
+									"path": [
+										"health",
+										"live"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Fri, 24 Sep 2021 10:32:20 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-store, no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Expires",
+									"value": "Thu, 01 Jan 1970 00:00:00 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "Healthy"
+						}
+					]
+				}
+			]
+		}
+	]
+}
