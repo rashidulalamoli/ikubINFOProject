@@ -34,21 +34,21 @@ Layers:
 
 Project Description:
 
-In the Api project, I user 3 controllers. Authorization, User and Role. For logging, I used NLog and for excention handling, I used exemtionhandlermiddleware. The log in writing in aglobal field named as IkubInfoErrorHandlingLogs/logs/date_logfile.txt and configured in nlog.congig file.
+1.In the Api project, I user 3 controllers. Authorization, User and Role. For logging, I used NLog and for excention handling, I used exemtionhandlermiddleware. The log in writing in aglobal field named as IkubInfoErrorHandlingLogs/logs/date_logfile.txt and configured in nlog.congig file.
 The service dependency injection is seperated. A migration is added, so that the first run could make all necessary things like database and seed data.
 
-The DataAccess and Entity projects are made of reverse engineering as i made db first. So the fluent validation  in made in DataAccess and entity objects are made in Entity.
+2.The DataAccess and Entity projects are made of reverse engineering as i made db first. So the fluent validation  in made in DataAccess and entity objects are made in Entity.
 The seed data for role is also given in this fluent api, so that new migration can use it.
 I have also used extension methods for making encapsulation of entity. For Dtos, I used record type objects as it is value based.
 
-The Service layer is pretty much straight forward. It just calls Repository to get data and write business logics.
+3.The Service layer is pretty much straight forward. It just calls Repository to get data and write business logics.
 
-The Repository layer is mainly built on generic design pattern. As we know, if we want to change ORMs(entityframework, hybernate), it helps us to do change quickly.
+4.The Repository layer is mainly built on generic design pattern. As we know, if we want to change ORMs(entityframework, hybernate), it helps us to do change quickly.
 But I also used custom repositories, because it gives more flexibily to access and modify data by using entityframworf dbcontext class.
 
-The Utility layer is just a helper for some static data and function.
+5.The Utility layer is just a helper for some static data and function.
 
-The UnitTest project built on Xunit,moq and fluientassertions. I tried to make test on all aspects, some could be missing.
+6.The UnitTest project built on Xunit,moq and fluientassertions. I tried to make test on all aspects, some could be missing.
 
 
 How to run:
