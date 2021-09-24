@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ikubINFO.DataAccess\ikubINFO.DataAccess.csproj" />
+    <ProjectReference Include="..\ikubINFO.Utility\ikubINFO.Utility.csproj" />
+    <ProjectReference Include="..\ikubINFO.Entity\ikubINFO.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
