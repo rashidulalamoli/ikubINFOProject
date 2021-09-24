@@ -3,10 +3,12 @@
 This is a demo project to illustrate few thing as mentioned below:
 
 A) Functional requirements:
+
     1.Create a REST API which provides CREATE / READ / UPDATE / DELETE (CRUD) methods for 2 connected entities/tables. Example (User-> Roles or Department-> Employees). *
     2.API should be accessible only to authorized clients/users. *
     
 B) Technical requirements:
+
     1.Set up an application with .Net Core/ Entity Framework.
     2.Data can be stored in SQL or NoSQL databases.
     3.Create unit tests. *
@@ -31,6 +33,7 @@ Layers:
  7. UnitTests
 
 Project Description:
+
 In the Api project, I user 3 controllers. Authorization, User and Role. For logging, I used NLog and for excention handling, I used exemtionhandlermiddleware. The log in writing in aglobal field named as IkubInfoErrorHandlingLogs/logs/date_logfile.txt and configured in nlog.congig file.
 The service dependency injection is seperated. A migration is added, so that the first run could make all necessary things like database and seed data.
 
@@ -49,9 +52,11 @@ The UnitTest project built on Xunit,moq and fluientassertions. I tried to make t
 
 
 How to run:
+
 Just build the project by .net cli tool and hit dotnet run.
 
 How to test:
+
 The .net 5 is packaged with swagger. But I have also provided postman collection to test. 
 
 
