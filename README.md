@@ -19,18 +19,20 @@ B) Technical requirements:
     8.Add a readme file to explain the technical part of the application and give instructions on how to run/deploy the created application.
 
 Tools and Technologies:
- 1. dotnet core 5.
- 2. entity framework core.
- 3. sql server(MS local).
+
+     1. dotnet core 5.
+     2. entity framework core.
+     3. sql server(MS local).
 
 Layers:
- 1. Api
- 2. DataAccess
- 3. Entity
- 4. Service
- 5. Repository
- 6. Utility
- 7. UnitTests
+
+     1. Api
+     2. DataAccess
+     3. Entity
+     4. Service
+     5. Repository
+     6. Utility
+     7. UnitTests
 
 Project Description:
 
