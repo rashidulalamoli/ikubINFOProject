@@ -36,7 +36,7 @@ Layers:
 
 Project Description:
 
-    1.In the Api project, I user 3 controllers. Authorization, User and Role. For logging, I used NLog and for exception handling, I used exceptionhandlermiddleware. The log in writing in a global field named as IkubInfoErrorHandlingLogs/logs/date_logfile.txt and configured in nlog.config file.
+    1.In the Api project, I used 3 controllers. Authorization, User and Role. For logging, I used NLog and for exception handling, I used exceptionhandlermiddleware. The log in writing in a global field named as IkubInfoErrorHandlingLogs/logs/date_logfile.txt and configured in nlog.config file.
     The service dependency injection is separated. A migration is added, so that the first run could make all necessary things like database and seed data.
 
     2.The DataAccess and Entity projects are made of reverse engineering as i made dB first. So, the fluent validation in made in DataAccess and entity objects are made in Entity.
